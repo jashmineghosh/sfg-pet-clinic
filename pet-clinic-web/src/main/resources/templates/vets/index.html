@@ -18,7 +18,7 @@
     </thead>
     <tbody>
     <tr th:each="vet : ${vets}">
-        <!-- this name vets, should match the attribute name in controller- model.addAttribute("vets"-->
+        <!-- this name vets, should match the attribute name in controller- model.addAttribute("vets", vet? can be just vet, as we are dealing with null values already-->
         <td th:text="${vet?.id}"></td>
         <td th:text="${vet?.firstName}"></td>
         <td th:text="${vet?.lastName}"></td>
