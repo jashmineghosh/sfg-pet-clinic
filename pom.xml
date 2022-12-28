@@ -31,14 +31,15 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-plugins</artifactId>
-				<configuration>
-					<goals>install</goals>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-plugins</artifactId>-->
+<!--				<version>3.8.6</version>-->
+<!--				<configuration>-->
+<!--					<goals>install</goals>-->
+<!--					<autoVersionSubmodules>true</autoVersionSubmodules>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
